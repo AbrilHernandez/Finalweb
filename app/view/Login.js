@@ -1,12 +1,12 @@
-Ext.define('app.view.main.Login',{
+Ext.define('app.view.Login',{
 
     extend: 'Ext.Panel',
     xtype: 'principal',
     //controller: 'login'
 
-    //requires: [
-      //  'Ext.plugin.Viewport'
-    //],
+    requires: [
+      'Ext.plugin.Viewport'
+    ],
 
     layout:'ux.center',
     initComponent : function(){

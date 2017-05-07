@@ -11,7 +11,9 @@ Ext.application({
     requires: [
         'Ext.Panel',
         //'final.view.main.Main'
-        'app.view.Login'
+        'final.view.Login',
+        'Ext.form.Display',
+        'Ext.grid.Panel'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class
@@ -19,7 +21,7 @@ Ext.application({
     // modern toolkit, the main view will be added to the Viewport.
     //
     mainView: //'final.view.main.Main'
-	            'app.view.Login'
+	            'final.view.Login'
     //-------------------------------------------------------------------------
     // Most customizations should be made to final.Application. If you need to
     // customize this file, doing so below this section reduces the likelihood

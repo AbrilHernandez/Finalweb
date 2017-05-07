@@ -1,4 +1,7 @@
-Ext.define('final.view.Login',{
+/**
+ * Created by vaio1 on 07/05/2017.
+ */
+Ext.define('app.view.Login',{
 
     extend: 'Ext.Panel',
     xtype: 'login',

@@ -1,3 +1,6 @@
-/**
- * Created by vaio1 on 07/05/2017.
- */
+Ext.define('finalweb.controller.ControlLogin',{
+    extend: 'Ext.app.ViewController',
+
+    alias: 'controller.controllogin',
+
+});

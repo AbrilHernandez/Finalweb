@@ -1,4 +1,4 @@
-Ext.define('app.view.main.Login',{
+Ext.define('finalweb.view.main.Login',{
 
     extend: 'Ext.Panel',
     xtype: 'principal',

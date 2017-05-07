@@ -9,7 +9,9 @@ Ext.application({
     extend: 'final.Application',
 
     requires: [
-        'final.view.main.Main'
+        'Ext.Panel',
+        //'final.view.main.Main'
+        'app.view.Login'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class

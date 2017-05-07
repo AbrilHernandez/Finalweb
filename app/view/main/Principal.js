@@ -1,20 +1,20 @@
 /**
  * Created by vaio1 on 07/05/2017.
  */
-Ext.define('app.view.Login',{
+Ext.define('finalweb.view.main.Principal',{
 
     extend: 'Ext.Panel',
-    xtype: 'login',
-    //controller: 'login'
+    xtype: 'principal',
+    //  controller: 'loginctr',
 
-    //requires: [
-    //  'Ext.plugin.Viewport'
-    //],
+    requires: [
+        'Ext.plugin.Viewport'
+    ],
 
     layout:'ux.center',
     initComponent : function(){
 
-        var login = Ext.create('Ext.form.Text',{ //si lo manejas como panel estas variables deben ser propiedades
+        var login = Ext.create('Ext.form.Text',{
             name: 'login',
             fieldLabel: 'Nombre de usuario',
             labelWidth: 120,
@@ -33,8 +33,8 @@ Ext.define('app.view.Login',{
             maxLength: 12,
             minLength: 4,
             allowBlank: false,
-            msgTarget: 'side'
-
+            msgTarget:'side',
+            autoFitError: false
         });
 
         Ext.apply(this,{
@@ -67,3 +67,4 @@ Ext.define('app.view.Login',{
 
 
 });
+

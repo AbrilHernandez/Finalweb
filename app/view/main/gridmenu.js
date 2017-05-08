@@ -1,7 +1,7 @@
 /**
  * Created by fernando on 7/05/17.
  */
-Ext.define('finalweb.app.view.gridmenu',{
+Ext.define('finalweb.view.main.gridmenu',{
     extend: 'Ext.grid.Panel',
 
     controller: 'controllogin',
@@ -31,7 +31,7 @@ Ext.define('finalweb.app.view.gridmenu',{
                 xtype:'rownumberer'
             },{
                 text:'Id',
-                flex:2,
+                flex:1,
                 //dataIndex:'id',
                 align:'left'
             },{
@@ -41,17 +41,17 @@ Ext.define('finalweb.app.view.gridmenu',{
                 align:'left'
             },{
                 text:'Precio Unitario',
-                flex:1,
+                flex:2,
                // dataIndex:'preciou',
                 align:'left'
             },{
                 text:'Descuento',
-                flex:1,
+                flex:2,
                 aling:'left'
                 //dataIndex:'desc'
             },{
                 text:'Total',
-                flex:1,
+                flex:2,
                 //dataIndex:'Total',
                 align:'left'
             },{

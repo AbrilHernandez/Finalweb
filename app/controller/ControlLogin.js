@@ -31,7 +31,7 @@ Ext.define('finalweb.controller.controllogin',{
                         layout: 'fit',
                         anchor: '100%',
                         scrollable: 'vertical',
-                        items: Ext.create('app.view.main.Menu'),
+                        items: Ext.create('finalweb.view.main.Menu'),
                         renderTo: Ext.getBody()
                     });
                         Ext.Msg.alert({

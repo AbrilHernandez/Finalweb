@@ -1,9 +1,10 @@
 /**
  * Created by fernando on 7/05/17.
  */
-Ext.define('finalweb.view.gridmenu',{
+Ext.define('finalweb.app.view.gridmenu',{
     extend: 'Ext.grid.Panel',
 
+    controller: 'controllogin',
     title:'Realizar venta:',
     width:800,
     height:300,

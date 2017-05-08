@@ -1,11 +1,11 @@
 /**
  * Created by fernando on 7/05/17.
  */
-Ext.define('finalweb.view.main.Menu',{
+Ext.define('finalweb.app.view.main.Menu',{
     extend:'Ext.Panel',
     layout:'ux.center',
     initComponent : function(){
-        var mygrid= Ext.create('finalweb.view.main.gridmenu');
+        var mygrid= Ext.create('app.view.main.gridmenu');
         Ext.apply(this, {
 
             items:[mygrid]

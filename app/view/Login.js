@@ -2,7 +2,7 @@ Ext.define('finalweb.view.main.Login',{
 
     extend: 'Ext.Panel',
     xtype: 'principal',
-    controller: 'controllogin',
+    //controller: 'controllogin',
 
     //requires: [
       //  'Ext.plugin.Viewport'

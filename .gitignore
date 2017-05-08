@@ -48,3 +48,5 @@ fabric.properties
 classic.json
 classic.jsonp
 /sass/
+build/production/
+build/temp/production/

@@ -1,4 +1,4 @@
-Ext.define('app.controller.FormaController',{
+Ext.define('finalweb.controller.FormaController',{
     extend:'Ext.app.ViewController',
     alias:'controller.formacontroller',
     editar:function(view,rowIndex,ColIndex){

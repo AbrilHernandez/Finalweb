@@ -1,4 +1,4 @@
-Ext.define("app.view.Forma",{
+Ext.define("finalweb.view.Forma",{
     extend:'Ext.form.Panel',
     
     initComponent:function(){

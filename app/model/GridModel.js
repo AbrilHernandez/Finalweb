@@ -1,4 +1,4 @@
-Ext.define('app.model.GridModel',{
+Ext.define('finalweb.model.GridModel',{
     extend:'Ext.data.Model',
     
     fields:[

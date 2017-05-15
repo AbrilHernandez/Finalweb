@@ -1,4 +1,4 @@
-Ext.define('app.store.GridStore',{
+Ext.define('finalweb.store.GridStore',{
     extend:'Ext.data.Store',
     model:'app.model.GridModel',
     

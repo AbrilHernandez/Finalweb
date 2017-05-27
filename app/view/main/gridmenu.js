@@ -4,7 +4,7 @@
 Ext.define('finalweb.view.main.gridmenu',{
     extend: 'Ext.grid.Panel',
 
-    controller: 'controllogin',
+    controller: 'ControlLogin',
     title:'Realizar venta:',
     width:800,
     height:300,

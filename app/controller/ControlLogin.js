@@ -17,8 +17,8 @@ Ext.define('finalweb.controller.controllogin',{
             Ext.Ajax.request({
                 url: '/server/Login',
                 params: {
-                    login: forma.findField('login').getValue(),
-                    pass: forma.findField('password').getValue()
+                    nombreUsuario: forma.findField('login').getValue(),
+                    contrasena: forma.findField('password').getValue()
                 },
                 callback: function (request, success, response) {
 
